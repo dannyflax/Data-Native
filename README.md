@@ -27,8 +27,6 @@ Data Native plugs right into an existing database. Our current implementation su
 **3. Aggregate** – By dragging and dropping a column header to the main table header, the user can initiate an aggregation. This will group together rows that have the same value for this column.
 After selecting the grouping column, the user chooses how to combine the other columns in the row. The choices are MAX, MIN, COUNT, or SUM.
 
-\pagebreak
-
 ## System Architecture
 
 Data Native consists of a client-side iPad application and a standalone server application that sit on top of the database. An overview of the architecture is shown in Figure 2 below. 
