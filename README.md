@@ -13,6 +13,6 @@ Data Native plugs right into an existing database. Our current implementation su
 **2. Filter** – By dragging and dropping a data block from the data set to a column header, the user may filter the data according to a specific value. This is equivalent to "SELECT * FROM table WHERE column=value".
 
 **3. Aggregate** – By dragging and dropping a column header to the main table header, the user can initiate an aggregation. This will group together rows that have the same value for this column.
-After selecting the grouping column, the user chooses how to combine the other columns in the row by dragging a second column to a function value. The choices are MAX, MIN, COUNT, or SUM. This is equivalent to "SELECT column1,MAX(column2) GROUP BY column1".
+After selecting the grouping column, the user chooses how to combine the other columns in the row by dragging a second column to a function value. The choices are MAX, MIN, COUNT, or SUM. This is equivalent to "SELECT column1, FUNC(column2) GROUP BY column1".
 
 ![Grouping](figures/group.png)
