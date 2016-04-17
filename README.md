@@ -1,5 +1,7 @@
 # Data Native - An Accessible & Touch-Guided iPad App for MySQL Database Browsing
 
+This is a technical report on Data Native, which does not include setup instructions. These can be found on (our website)[http://dannyflax.github.io/Data-Native/].
+
 We present Data Native, a responsive and efficient iPad App that maps SQL queries to familiar touch gestures such as swiping or dragging on individual data objects in the database. Data Native makes database browsing more accessible by applying mobile-specific interface and navigation techniques to create a familiar interactive experience for exploring unfamiliar data sets.
 
 ## Why another database tool?
